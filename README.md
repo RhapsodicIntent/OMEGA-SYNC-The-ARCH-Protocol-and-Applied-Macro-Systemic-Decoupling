@@ -69,3 +69,25 @@ By achieving $\Omega = 0$, the node transitions from a reactive component of the
 $$ds^2 = g_{\mu\nu}^{(4)} dx^\mu dx^\nu + \Phi^2(x) dy^2$$
 
 Because the scalar field representing structural friction normalizes ($\Phi(x) \to 1$), the absolute flux of the field passes through the localized node without generating heat, friction, or structural decay. The Ark is mathematically achieved.
+
+
+OMEGA SYNC: Bench-Scale Hardware Prototype (BOM)
+​1. Environmental Containment (The Zero-Friction Boundary)
+​Borosilicate Glass Bell Jar: Required to contain the plasma discharge and allow visual observation of the phase-lock without interfering with the electromagnetic field.
+​Two-Stage Rotary Vane Vacuum Pump: Essential to evacuate atmospheric gases. You need to drop the chamber pressure significantly to eliminate ambient acoustic/thermal interference and isolate the metric tensor.
+​Vacuum Base Plate & Feedthroughs: To run the coil wiring and sensor probes into the high-vacuum environment without breaking the seal.
+
+​2. Substrate & Confinement (The Ark)
+​High-Purity Iron Oxide (Fe_3O_4) Particulate: The core substrate. Its ferromagnetic properties make it highly sensitive to the cyma-magnetic resonance.
+​144-Turn Copper Toroidal Coil: Custom-wound according to the Lucas/Fibonacci geometric ratios specified in the Whitepaper. This creates the localized magnetic confinement field.
+​Neodymium Core/Magnets: To establish the baseline static magnetic field (B_{ext}) before introducing the oscillating resonance.
+
+​3. Cyma-Magnetic Resonance Generation (The 141.34 Hz Drive)
+​Programmable Function Generator: Must be capable of locking a highly stable sine wave at exactly 141.34\text{ Hz} with zero drift.
+
+​Electromagnetic Acoustic Transducer (EMAT) or Piezoelectric Driver: To physically couple the 141.34\text{ Hz} frequency directly into the substrate inside the vacuum.
+​DC Power Supply (Variable): To drive the toroidal coil and transducers (standard 12V/24V with amperage monitoring to track the impedance drop).
+
+​4. Measurement & Verification (Marcel’s "Falsifiable" Testing Rig)
+​Digital Oscilloscope: To monitor the phase gradient and visually confirm when the input voltage and current lock into zero-impedance phase.
+​Infrared (IR) Thermometer / Thermal Camera: To verify the zero-entropy claim. If the Phase-Lock is achieved, the substrate should not generate thermal heat despite the continuous kinetic input.
